@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "YouTube URL"
+read url
+
+echo "You've entered:"
+echo $url 
+
+youtube-dl -x --audio-format mp3 -o '/Users/luannaochoa/Music/%(title)s.%(ext)s' $url
+
+
