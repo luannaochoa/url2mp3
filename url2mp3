@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "YouTube URL"
+echo "YouTube URL:"
 read url
 
 echo "You've entered:"
